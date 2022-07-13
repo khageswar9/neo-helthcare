@@ -1,7 +1,7 @@
 import path from'path';
 import fs from"fs";
 
-var directories = path.join("/Users/user/Desktop/github/neos-helthcare","data.json");
+var directories = path.join("__dername"+"./data.json");
 function deleteData(value){
     var x = new Promise((resolve,reject)=>{
             fs.writeFile('data.json',JSON.stringify(value),function(err){
