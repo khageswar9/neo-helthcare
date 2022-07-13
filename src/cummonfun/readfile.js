@@ -1,7 +1,7 @@
 import path from'path'
 import fs from"fs";
 
-var directories = path.join("/Users/user/Desktop/github/neos-helthcare","data.json");
+var directories = path.join("__dername"+"./data.json");
 var x = new Promise((resolve,reject)=>{
     fs.readFile('data.json','utf-8',(err, data)=>{
         if (err) {
