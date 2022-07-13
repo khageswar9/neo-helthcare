@@ -2,7 +2,7 @@ import path from'path';
 import fs from"fs";
 import data from'./readfile.js';
 
-var directories = path.join("/Users/user/Desktop/github/neos-helthcare","data.json");
+var directories = path.join("__dername"+"./data.json");
 function pushdata(value){
     var x = new Promise((resolve,reject)=>{
         data.push(value)
